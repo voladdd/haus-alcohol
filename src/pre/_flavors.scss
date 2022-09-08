@@ -1,0 +1,20 @@
+.flavors {
+  @include posText(flex, row, space-between, center, center);
+  margin-top: 3em;
+}
+
+.flavor {
+  max-width: 23.875em;
+  line-height: 2em;
+  @include posText(flex, column, space-between, center, center);
+  *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  &__title {
+    font-family: "LiberationSerif";
+    font-size: 2em;
+  }
+  &__button {
+    @include simpleButton(#ffffff, #191919, #191919);
+  }
+}

@@ -14,7 +14,7 @@ header {
     }
   }
   .side {
-    padding: 0 4em;
+    padding: 0 $side_padding;
     &__left a:not(:last-child) {
       margin-right: 5em;
     }

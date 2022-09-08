@@ -14,26 +14,6 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      .text-block {
-        padding: 0 2em;
-        margin-top: 8em;
-        &__title--huge {
-          font-family: "LiberationSerif";
-          font-size: 4em;
-          line-height: 6rem;
-        }
-        &__body--medium {
-          font-size: 1.1em;
-          line-height: 2rem;
-        }
-        &__title--huge,
-        &__body--medium {
-          margin-bottom: 3rem;
-        }
-        &__button {
-          @include simpleButton(#000000, #ffffff);
-        }
-      }
     }
   }
 }

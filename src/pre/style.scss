@@ -1,13 +1,17 @@
-@import "./fonts";
-@import "./mixins";
-
+$side_padding: 4em;
 * {
   margin: 0;
   font-family: "Roboto";
 }
 
+@import "./fonts";
+@import "./mixins";
+@import "./text-block";
+
 @import "./header";
 
 .section {
   @import "./_intro";
+  @import "./comments";
+  @import "./flavors";
 }

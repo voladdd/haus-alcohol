@@ -1,11 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  font-family: "Roboto";
+}
+
 @font-face {
   font-family: "LiberationSerif";
   src: url("../../fonts/LiberationSerif.ttf") format("ttf");
 }
-* {
-  margin: 0;
-  font-family: "Roboto";
+.text-block {
+  padding: 0 4em;
+  margin-top: 8em;
+}
+.text-block--center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.text-block__title--huge {
+  font-family: "LiberationSerif";
+  font-size: 4em;
+  line-height: 6rem;
+}
+.text-block__body--medium {
+  font-size: 1.1em;
+  line-height: 2rem;
+}
+.text-block__title--huge, .text-block__body--medium {
+  margin-bottom: 3rem;
+}
+.text-block__button {
+  border: 1.5px solid #ffffff;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 11.25em;
+  padding: 1em 2em;
 }
 
 header {
@@ -50,26 +86,58 @@ header .side__right a:not(:first-child) {
   align-items: flex-start;
   justify-content: center;
 }
-.section__intro .intro__right .text-block {
-  padding: 0 2em;
-  margin-top: 8em;
+.section__comments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 0 4em;
 }
-.section__intro .intro__right .text-block__title--huge {
+.section__comments .comment {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 18.75em;
+}
+.section__comments .comment__image {
+  margin-top: 2em;
+}
+.section .flavors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 3em;
+}
+.section .flavor {
+  max-width: 23.875em;
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.section .flavor *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.section .flavor__title {
   font-family: "LiberationSerif";
-  font-size: 4em;
-  line-height: 6rem;
+  font-size: 2em;
 }
-.section__intro .intro__right .text-block__body--medium {
-  font-size: 1.1em;
-  line-height: 2rem;
-}
-.section__intro .intro__right .text-block__title--huge, .section__intro .intro__right .text-block__body--medium {
-  margin-bottom: 3rem;
-}
-.section__intro .intro__right .text-block__button {
-  border: 1.5px solid #ffffff;
-  background-color: transparent;
-  color: #000000;
+.section .flavor__button {
+  border: 1.5px solid #191919;
+  background-color: #191919;
+  color: #ffffff;
   text-align: center;
   text-decoration: none;
   display: inline-block;

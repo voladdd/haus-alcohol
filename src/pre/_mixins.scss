@@ -15,3 +15,12 @@
   max-width: 11.25em;
   padding: 1em 2em;
 }
+
+@mixin posText($d, $fd, $jc, $ai, $ta, $fw: wrap) {
+  display: $d;
+  flex-direction: $fd;
+  justify-content: $jc;
+  align-items: $ai;
+  text-align: $ta;
+  flex-wrap: $fw;
+}
