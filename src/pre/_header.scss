@@ -1,0 +1,25 @@
+header {
+  height: 4em;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    font-size: 0.75em;
+    &:link,
+    &:visited {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .side {
+    padding: 0 4em;
+    &__left a:not(:last-child) {
+      margin-right: 5em;
+    }
+    &__right a:not(:first-child) {
+      margin-left: 5em;
+    }
+  }
+}

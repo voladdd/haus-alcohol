@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "LiberationSerif";
+  src: url("../../fonts/LiberationSerif.ttf") format("ttf");
+}
+* {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+header {
+  height: 4em;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  font-size: 0.75em;
+}
+header a:link, header a:visited {
+  color: white;
+  text-decoration: none;
+}
+header .side {
+  padding: 0 4em;
+}
+header .side__left a:not(:last-child) {
+  margin-right: 5em;
+}
+header .side__right a:not(:first-child) {
+  margin-left: 5em;
+}
+
+.section__intro {
+  display: flex;
+  height: 100vh;
+  background-color: #996b60;
+}
+.section__intro .intro__left {
+  width: 50%;
+  object-fit: cover;
+}
+.section__intro .intro__right {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.section__intro .intro__right .text-block {
+  padding: 0 2em;
+  margin-top: 8em;
+}
+.section__intro .intro__right .text-block__title--huge {
+  font-family: "LiberationSerif";
+  font-size: 4em;
+  line-height: 6rem;
+}
+.section__intro .intro__right .text-block__body--medium {
+  font-size: 1.1em;
+  line-height: 2rem;
+}
+.section__intro .intro__right .text-block__title--huge, .section__intro .intro__right .text-block__body--medium {
+  margin-bottom: 3rem;
+}
+.section__intro .intro__right .text-block__button {
+  border: 1.5px solid #ffffff;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 11.25em;
+  padding: 1em 2em;
+}
+
+/*# sourceMappingURL=style.css.map */
