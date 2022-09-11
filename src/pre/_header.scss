@@ -5,6 +5,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  img {
+    max-width: 5.25em;
+  }
   a {
     font-size: 0.75em;
     &:link,
