@@ -4,6 +4,12 @@
   font-family: "Roboto";
 }
 
+.down-line {
+  background: #bdbdbd;
+  margin: 0 4em;
+  height: 5px;
+}
+
 @font-face {
   font-family: "LiberationSerif";
   src: url("../../fonts/LiberationSerif.ttf") format("ttf");
@@ -19,17 +25,25 @@
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+  width: 50%;
+  margin: 0 auto;
+}
+.text-block__title--huge, .text-block__title--medium {
+  font-family: "LiberationSerif";
 }
 .text-block__title--huge {
-  font-family: "LiberationSerif";
-  font-size: 4em;
+  font-size: 4.5em;
   line-height: 6rem;
 }
-.text-block__body--medium {
+.text-block__title--medium {
+  font-size: 4em;
+  line-height: 5rem;
+}
+.text-block__body--small {
   font-size: 1.1em;
   line-height: 2rem;
 }
-.text-block__title--huge, .text-block__body--medium {
+.text-block__title--huge, .text-block__body--small, .text-block__title--medium {
   margin-bottom: 3rem;
 }
 .text-block__button {
@@ -115,7 +129,8 @@ header .side__right a:not(:first-child) {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  margin-top: 3em;
+  margin: 2em 0 8em 0;
+  padding: 0 4em;
 }
 .section .flavor {
   max-width: 23.875em;
@@ -144,6 +159,27 @@ header .side__right a:not(:first-child) {
   cursor: pointer;
   max-width: 11.25em;
   padding: 1em 2em;
+}
+.section .flavor__img {
+  position: relative;
+}
+.section .flavor__img__promotion {
+  position: absolute;
+  background-color: #191919;
+  border-radius: 100%;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-size: 0.75em;
+  line-height: 0.875rem;
+  right: 5%;
+  top: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

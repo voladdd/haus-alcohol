@@ -1,6 +1,7 @@
 .flavors {
   @include posText(flex, row, space-between, center, center);
-  margin-top: 3em;
+  margin: 2em 0 8em 0;
+  padding: 0 $side_padding;
 }
 
 .flavor {
@@ -15,6 +16,22 @@
     font-size: 2em;
   }
   &__button {
-    @include simpleButton(#ffffff, #191919, #191919);
+    @include simpleButton(#ffffff, $black_color, $black_color);
+  }
+  &__img {
+    position: relative;
+    &__promotion {
+      position: absolute;
+      background-color: $black_color;
+      border-radius: 100%;
+      width: 6rem;
+      height: 6rem;
+      @include posText(flex, column, center, center, center);
+      color: #ffffff;
+      font-size: 0.75em;
+      line-height: 0.875rem;
+      right: 5%;
+      top: 5%;
+    }
   }
 }

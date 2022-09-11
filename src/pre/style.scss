@@ -1,9 +1,11 @@
 $side_padding: 4em;
+$black_color: #191919;
 * {
   margin: 0;
   font-family: "Roboto";
 }
 
+@import "./down-line";
 @import "./fonts";
 @import "./mixins";
 @import "./text-block";

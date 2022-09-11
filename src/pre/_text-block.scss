@@ -1,20 +1,32 @@
 .text-block {
   &--center {
     @include posText(flex, column, center, center, center);
+    width: 50%;
+    margin: 0 auto;
   }
   padding: 0 $side_padding;
   margin-top: 8em;
-  &__title--huge {
-    font-family: "LiberationSerif";
-    font-size: 4em;
-    line-height: 6rem;
+  &__title {
+    &--huge,
+    &--medium {
+      font-family: "LiberationSerif";
+    }
+    &--huge {
+      font-size: 4.5em;
+      line-height: 6rem;
+    }
+    &--medium {
+      font-size: 4em;
+      line-height: 5rem;
+    }
   }
-  &__body--medium {
+  &__body--small {
     font-size: 1.1em;
     line-height: 2rem;
   }
   &__title--huge,
-  &__body--medium {
+  &__body--small,
+  &__title--medium {
     margin-bottom: 3rem;
   }
   &__button {
