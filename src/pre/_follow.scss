@@ -1,0 +1,32 @@
+&__follow {
+  background: no-repeat url(../../assets/images/follow_background.png);
+  background-size: cover;
+  color: white;
+  padding: $side_padding $side_padding;
+  .playlists {
+    @include posText(flex, column, space-between, center, center);
+    &__button {
+      @include simpleButton(#000000, transparent, #ffffff);
+    }
+  }
+  .playlists,
+  .followUs {
+    max-width: 26em;
+    background: #000000;
+    padding: 2em 4em;
+  }
+  .followUs {
+    margin-top: 2em;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    column-gap: 2em;
+    &__title {
+      grid-row: 1 / 2;
+    }
+    &__links {
+      @include posText(flex, row, space-around, flex-start, center);
+      grid-row: 2 / 3;
+    }
+  }
+}

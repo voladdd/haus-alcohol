@@ -293,5 +293,59 @@ header .side__right a:not(:first-child) {
   grid-column: 2/3;
   grid-row: 2/3;
 }
+.section__follow {
+  background: no-repeat url(../../assets/images/follow_background.png);
+  background-size: cover;
+  color: white;
+  padding: 4em 4em;
+}
+.section__follow .playlists {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.section__follow .playlists__button {
+  border: 1.5px solid transparent;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 11.25em;
+  padding: 1em 2em;
+}
+.section__follow .playlists,
+.section__follow .followUs {
+  max-width: 26em;
+  background: #000000;
+  padding: 2em 4em;
+}
+.section__follow .followUs {
+  margin-top: 2em;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  column-gap: 2em;
+}
+.section__follow .followUs__title {
+  grid-row: 1/2;
+}
+.section__follow .followUs__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  flex-wrap: wrap;
+  grid-row: 2/3;
+}
+.section__footer {
+  background: black;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
