@@ -1,0 +1,22 @@
+&__closingArgument {
+  display: grid;
+  margin: 4rem 0;
+  align-items: flex-end;
+  padding: 0 $side_padding;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 6.875em;
+  img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    max-width: 34em;
+  }
+  &__title {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    align-self: flex-start;
+  }
+  &__body {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+}
