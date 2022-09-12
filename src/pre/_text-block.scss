@@ -4,12 +4,16 @@
     width: 50%;
     margin: 0 auto;
   }
+  &--left {
+    @include posText(flex, column, flex-start, start, left);
+  }
   padding: 0 $side_padding;
   margin-top: 8em;
   &__title {
     &--huge,
     &--medium,
-    &--small {
+    &--small,
+    &--smallest {
       font-family: "LiberationSerif";
     }
     &--huge {
@@ -23,14 +27,18 @@
     &--small {
       font-size: 3.5em;
     }
+    &--smallest {
+      font-size: 2.5em;
+    }
   }
   &__body--small {
     font-size: 1.1em;
     line-height: 2rem;
   }
-  &__title--huge,
-  &__body--small,
-  &__title--medium {
+  &--mb-small {
+    margin-bottom: 2rem;
+  }
+  &--mb-medium {
     margin-bottom: 3rem;
   }
   &__button {

@@ -1,0 +1,17 @@
+&__proposition {
+  margin-top: 2em;
+  grid-template-columns: 1fr 2fr;
+  display: grid;
+  padding: 0 $side_padding;
+  column-gap: 4em;
+  img {
+    grid-column: 2 / 3;
+    max-width: 100%;
+  }
+  .proposition {
+    &__info {
+      @include posText(flex, column, space-between, center, center);
+      grid-column: 1 / 2;
+    }
+  }
+}
