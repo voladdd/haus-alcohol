@@ -19,3 +19,9 @@
     }
   }
 }
+
+@media screen and (max-width: $tablet) {
+  &__comments {
+    @include posText(flex, column, space-between, center, center);
+  }
+}

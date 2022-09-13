@@ -69,9 +69,6 @@
   &--mb-medium {
     margin-bottom: 3rem;
   }
-  &__button {
-    @include simpleButton(#000000, #ffffff);
-  }
 }
 
 @media screen and (max-width: $small-laptop) {

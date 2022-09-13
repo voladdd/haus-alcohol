@@ -18,3 +18,25 @@ header {
     }
   }
 }
+
+@media screen and (max-width: $small-laptop) {
+  header .side {
+    &__left a:not(:last-child) {
+      margin-right: 2em;
+    }
+    &__right a:not(:first-child) {
+      margin-left: 2em;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  header .side {
+    &__left a:not(:last-child) {
+      margin-right: 1em;
+    }
+    &__right a:not(:first-child) {
+      margin-left: 1em;
+    }
+  }
+}

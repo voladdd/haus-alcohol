@@ -73,10 +73,27 @@
 }
 
 @media screen and (max-width: $small-laptop) {
-  &__footer {
-    .footer {
-      .your-email {
-        max-width: 20.5em;
+  &__footer .footer .your-email {
+    max-width: 20.5em;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  &__footer .footer {
+    .your-email {
+      max-width: 100%;
+    }
+    .down-links {
+      margin-top: 2em;
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+    .policy {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+      margin-top: 2em;
+      *:not(:last-child) {
+        margin-right: 1em;
       }
     }
   }

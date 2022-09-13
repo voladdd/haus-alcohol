@@ -16,3 +16,9 @@
     }
   }
 }
+
+@media screen and (max-width: $tablet) {
+  &__socialProof {
+    @include posText(flex, column, space-between, flex-start, center);
+  }
+}

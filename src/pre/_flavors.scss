@@ -44,3 +44,9 @@
     max-width: 15em;
   }
 }
+
+@media screen and (max-width: $tablet) {
+  .flavors {
+    @include posText(flex, column, space-between, center, center);
+  }
+}
