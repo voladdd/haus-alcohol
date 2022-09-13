@@ -18,6 +18,9 @@
   &__button {
     @include simpleButton(#ffffff, $black_color, $black_color);
   }
+  &__button:hover {
+    @include simpleButton($black_color, $black_color, transparent);
+  }
   &__image {
     max-width: 100%;
   }

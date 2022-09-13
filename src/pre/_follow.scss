@@ -8,6 +8,9 @@
     &__button {
       @include simpleButton(#000000, transparent, #ffffff);
     }
+    &__button:hover {
+      @include simpleButton(white, white, transparent);
+    }
   }
   .playlists,
   .followUs {

@@ -33,16 +33,43 @@
   }
   &__link {
     font-size: 0.75em;
+    transition: 0.2s;
     &:link,
     &:visited {
       text-decoration: none;
     }
-  }
-  &__link--white {
-    color: white;
-  }
-  &__link--black {
-    color: #000000;
+    &--white {
+      color: white;
+      position: relative;
+    }
+    &--white:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: -10px;
+      left: 0;
+      background-color: white;
+      transform-origin: bottom left;
+      transition: 0.2s;
+    }
+    &--white:hover:after {
+      transform: scaleX(1);
+      transform: bottom right;
+    }
+    &--black:hover {
+      color: #8a8a8a;
+    }
+    &--black {
+      color: #000000;
+    }
+    &--gray {
+      color: #8a8a8a;
+    }
+    &--gray:hover {
+      color: white;
+    }
   }
   &__body {
     &--small {

@@ -17,6 +17,9 @@
       button {
         @include simpleButton(#000000, #ffffff);
       }
+      button:hover {
+        @include simpleButton(black, white, white);
+      }
     }
   }
 }
@@ -35,6 +38,9 @@
           button {
             @include simpleButton(black, transparent, white);
           }
+          button:hover {
+            @include simpleButton(black, white);
+          }
         }
       }
       &__right::after {
@@ -45,7 +51,7 @@
         z-index: -1;
         height: 100vh;
         display: block;
-        background: no-repeat url(../../assets/images/preview_alcohol.jpg);
+        background: no-repeat url(../../assets/images/preview_alcohol.png);
         background-size: cover;
         filter: brightness(0.5);
       }

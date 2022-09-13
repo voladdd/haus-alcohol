@@ -14,6 +14,7 @@
   cursor: pointer;
   max-width: 11.25em;
   padding: 1em 2em;
+  transition: 0.2s;
 }
 
 @mixin posText($d, $fd, $jc, $ai, $ta, $fw: wrap) {
