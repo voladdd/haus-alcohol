@@ -2,4 +2,7 @@
   background: #bdbdbd;
   margin: 0 $side_padding;
   height: 1px;
+  &--full-side {
+    margin: 0;
+  }
 }

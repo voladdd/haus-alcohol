@@ -44,9 +44,15 @@
   &__link--black {
     color: #000000;
   }
-  &__body--small {
-    font-size: 1.1em;
-    line-height: 2rem;
+  &__body {
+    &--small {
+      font-size: 1.1em;
+      line-height: 2rem;
+    }
+    &--smallest {
+      font-size: 0.75em;
+      line-height: 2rem;
+    }
   }
   &--c-gray {
     color: #8a8a8a;
