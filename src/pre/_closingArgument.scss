@@ -20,3 +20,13 @@
     grid-row: 2 / 3;
   }
 }
+
+@media screen and (max-width: $small-laptop) {
+  &__closingArgument {
+    column-gap: 3em;
+    row-gap: 2em;
+    img {
+      max-width: 28em;
+    }
+  }
+}

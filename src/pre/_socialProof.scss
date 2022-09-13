@@ -8,3 +8,11 @@
     max-width: 22em;
   }
 }
+
+@media screen and (max-width: $small-laptop) {
+  &__socialProof {
+    * {
+      max-width: 15em;
+    }
+  }
+}

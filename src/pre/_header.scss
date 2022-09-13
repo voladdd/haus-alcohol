@@ -8,14 +8,6 @@ header {
   img {
     max-width: 5.25em;
   }
-  // a {
-  //   font-size: 0.75em;
-  //   &:link,
-  //   &:visited {
-  //     color: white;
-  //     text-decoration: none;
-  //   }
-  // }
   .side {
     padding: 0 $side_padding;
     &__left a:not(:last-child) {

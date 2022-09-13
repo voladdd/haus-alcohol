@@ -6,12 +6,22 @@
   column-gap: 4em;
   img {
     grid-column: 2 / 3;
+    grid-row: 1 / 2;
     max-width: 100%;
   }
   .proposition {
     &__info {
       @include posText(flex, column, space-between, center, center);
       grid-column: 1 / 2;
+    }
+  }
+}
+
+@media screen and (max-width: $small-laptop) {
+  &__proposition {
+    img {
+      height: 100%;
+      object-fit: cover;
     }
   }
 }

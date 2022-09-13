@@ -63,10 +63,21 @@
   &--mb-small {
     margin-bottom: 2rem;
   }
+  &--mb-huge {
+    margin-bottom: 5rem;
+  }
   &--mb-medium {
     margin-bottom: 3rem;
   }
   &__button {
     @include simpleButton(#000000, #ffffff);
+  }
+}
+
+@media screen and (max-width: $small-laptop) {
+  .text-block {
+    &--mb-small {
+      margin-bottom: 1rem;
+    }
   }
 }

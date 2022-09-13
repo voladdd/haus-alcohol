@@ -1,5 +1,5 @@
 .flavors {
-  @include posText(flex, row, space-between, center, center);
+  @include posText(flex, row, space-between, stretch, center);
   margin: 2em 0 8em 0;
   padding: 0 $side_padding;
 }
@@ -19,7 +19,7 @@
     @include simpleButton(#ffffff, $black_color, $black_color);
   }
   &__image {
-    max-width: 23.875em;
+    max-width: 100%;
   }
   &__img {
     position: relative;
@@ -36,5 +36,11 @@
       right: 5%;
       top: 5%;
     }
+  }
+}
+
+@media screen and (max-width: $small-laptop) {
+  .flavor {
+    max-width: 15em;
   }
 }

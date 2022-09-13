@@ -55,6 +55,7 @@
       &__explore,
       &__follow,
       &__drop-us-line {
+        min-width: 6em;
         @include posText(flex, column, center, flex-start, center);
       }
     }
@@ -67,6 +68,16 @@
         margin-right: 4em;
       }
       @include posText(flex, row, flex-start, flex-start, center);
+    }
+  }
+}
+
+@media screen and (max-width: $small-laptop) {
+  &__footer {
+    .footer {
+      .your-email {
+        max-width: 20.5em;
+      }
     }
   }
 }
