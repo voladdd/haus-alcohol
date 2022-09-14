@@ -54,9 +54,11 @@
       transform-origin: bottom left;
       transition: 0.2s;
     }
-    &--white:hover:after {
-      transform: scaleX(1);
-      transform: bottom right;
+    @media screen and (min-width: $tablet) {
+      &--white:hover:after {
+        transform: scaleX(1);
+        transform: bottom right;
+      }
     }
     &--black:hover {
       color: #8a8a8a;
