@@ -8,6 +8,7 @@
     @include posText(flex, column, flex-start, start, left);
   }
   padding: 0 $side_padding;
+  @include DynamicPading($mobile, 0, $side_padding);
   margin-top: 8em;
   &__title {
     &--huge,

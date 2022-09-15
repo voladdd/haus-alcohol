@@ -3,6 +3,7 @@
   margin: 4rem 0;
   align-items: flex-end;
   padding: 0 $side_padding;
+  @include DynamicPading($mobile, 0, $side_padding);
   grid-template-columns: 1fr 2fr;
   column-gap: 6.875em;
   img {

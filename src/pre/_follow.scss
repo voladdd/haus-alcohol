@@ -3,6 +3,7 @@
   background-size: cover;
   color: white;
   padding: $side_padding $side_padding;
+  @include DynamicPading($mobile, $side_padding, $side_padding);
   .playlists {
     @include posText(flex, column, space-between, center, center);
     &__button {

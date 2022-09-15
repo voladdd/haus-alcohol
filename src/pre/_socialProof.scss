@@ -3,6 +3,7 @@
   color: white;
   margin-top: 2rem;
   padding: 5em $side_padding 3em $side_padding;
+  @include DynamicPading($mobile, 4em, $side_padding);
   @include posText(flex, row, space-between, flex-start, center);
   * {
     max-width: 22em;

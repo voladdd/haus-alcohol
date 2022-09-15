@@ -25,3 +25,11 @@
   text-align: $ta;
   flex-wrap: $fw;
 }
+
+@mixin DynamicPading($width, $paddingSizeY, $paddingSizeX) {
+  @if $width == $mobile {
+    @media screen and (max-width: $width) {
+      padding: calc($paddingSizeY / 2) calc($paddingSizeX / 2);
+    }
+  }
+}

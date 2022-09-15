@@ -2,6 +2,7 @@
   background: black;
   color: white;
   padding: calc($side_padding / 2) $side_padding;
+  @include DynamicPading($mobile, calc($side_padding / 2), $side_padding);
   .footer {
     display: grid;
     .your-email {
@@ -92,6 +93,38 @@
       grid-column: 1 / 2;
       grid-row: 3 / 4;
       margin-top: 2em;
+      *:not(:last-child) {
+        margin-right: 1em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  &__footer .footer {
+    .down-links {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      row-gap: 2em;
+      &__explore {
+        grid-column: 1 / 2;
+      }
+      &__follow {
+        grid-column: 2 / 3;
+      }
+      &__drop-us-line {
+        grid-column: 1 / 2;
+      }
+      &__explore,
+      &__follow,
+      &__drop-us-line {
+        min-width: 6em;
+        @include posText(flex, column, center, flex-start, center);
+      }
+    }
+    .policy {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
       *:not(:last-child) {
         margin-right: 1em;
       }

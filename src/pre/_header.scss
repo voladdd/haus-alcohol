@@ -18,6 +18,7 @@ header {
   }
   .side {
     padding: 0 $side_padding;
+    @include DynamicPading($mobile, 0, $side_padding);
     &__left {
       grid-column: 1 / 2;
     }

@@ -1,6 +1,7 @@
 &__comments {
   @include posText(flex, row, space-between, center, center);
   padding: 0 $side_padding;
+  @include DynamicPading($mobile, 0, $side_padding);
   .comment {
     margin: 4rem 0;
     @include posText(flex, column, space-between, center, center);

@@ -1,6 +1,7 @@
 &__aperetifs {
   margin-top: 6.875em;
   padding: 0 $side_padding;
+  @include DynamicPading($mobile, 0, $side_padding);
   display: grid;
   grid-template-columns: 1fr 2fr;
   row-gap: 4em;

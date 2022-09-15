@@ -2,6 +2,15 @@
   @include posText(flex, row, space-between, stretch, center);
   margin: 2em 0 8em 0;
   padding: 0 $side_padding;
+  @include DynamicPading($mobile, 0, $side_padding);
+}
+
+&__flavors {
+  @media screen and (max-width: $mobile) {
+    .text-block--center {
+      width: 75%;
+    }
+  }
 }
 
 .flavor {

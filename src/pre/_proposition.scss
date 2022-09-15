@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 2fr;
   display: grid;
   padding: 0 $side_padding;
+  @include DynamicPading($mobile, 0, $side_padding);
   column-gap: 4em;
   img {
     grid-column: 2 / 3;
