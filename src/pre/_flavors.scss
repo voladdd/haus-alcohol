@@ -1,5 +1,5 @@
 .flavors {
-  @include posText(flex, row, space-between, stretch, center);
+  @include posText(flex, row, space-around, stretch, center);
   margin: 2em 0 8em 0;
   padding: 0 $side_padding;
   @include DynamicPading($mobile, 0, $side_padding);
@@ -53,7 +53,7 @@
 
 @media screen and (max-width: $small-laptop) {
   .flavor {
-    max-width: 15em;
+    max-width: 20em;
   }
 }
 

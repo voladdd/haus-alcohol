@@ -135,7 +135,7 @@ body.overflow {
   transform-origin: bottom left;
   transition: 0.2s;
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 860px) {
   .text-block__link--white:hover:after {
     transform: scaleX(1);
     transform: bottom right;
@@ -258,7 +258,7 @@ header .side__right a:not(:first-child) {
     margin-left: 2em;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 860px) {
   header .side__left a:not(:last-child) {
     margin-right: 1em;
   }
@@ -447,7 +447,7 @@ header .side__right a:not(:first-child) {
     max-width: 15em;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 860px) {
   .section__comments {
     display: flex;
     flex-direction: column;
@@ -460,7 +460,7 @@ header .side__right a:not(:first-child) {
 .section .flavors {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: stretch;
   text-align: center;
   flex-wrap: wrap;
@@ -544,10 +544,10 @@ header .side__right a:not(:first-child) {
 }
 @media screen and (max-width: 1280px) {
   .section .flavor {
-    max-width: 15em;
+    max-width: 20em;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 860px) {
   .section .flavors {
     display: flex;
     flex-direction: column;
@@ -664,7 +664,7 @@ header .side__right a:not(:first-child) {
     max-width: 15em;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 860px) {
   .section__socialProof {
     display: flex;
     flex-direction: column;
@@ -714,7 +714,7 @@ header .side__right a:not(:first-child) {
     max-width: 20em;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 860px) {
   .section__closingArgument img {
     grid-column: 1/2;
     grid-row: 2/4;
@@ -919,7 +919,7 @@ header .side__right a:not(:first-child) {
     max-width: 20.5em;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 860px) {
   .section__footer .footer .your-email {
     max-width: 100%;
   }
