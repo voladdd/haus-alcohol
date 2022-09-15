@@ -58,3 +58,11 @@
     }
   }
 }
+
+@media screen and (max-width: $mobile) {
+  &__intro {
+    .text-block {
+      margin-top: 5em;
+    }
+  }
+}

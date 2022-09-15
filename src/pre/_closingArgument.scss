@@ -19,6 +19,10 @@
     grid-column: 2 / 3;
     grid-row: 2 / 3;
   }
+  a {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
 }
 
 @media screen and (max-width: $small-laptop) {
@@ -45,6 +49,30 @@
     &__body {
       grid-column: 2 / 3;
       grid-row: 2 / 3;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  &__closingArgument {
+    grid-template-columns: 1fr;
+    img {
+      grid-column: 1;
+      grid-row: 2 / 3;
+      max-width: 100%;
+      // justify-self: end;
+    }
+    &__title {
+      grid-column: 1;
+      grid-row: 1 / 2;
+    }
+    &__body {
+      grid-column: 1;
+      grid-row: 3 / 4;
+    }
+    a {
+      grid-column: 1;
+      grid-row: 4 / 5;
     }
   }
 }

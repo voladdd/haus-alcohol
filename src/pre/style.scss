@@ -9,6 +9,14 @@ $small-laptop: 1280px;
 $tablet: 850px;
 $mobile: 770px;
 
+@media screen and (max-width: $mobile) {
+  $side_padding: 2em;
+}
+@media screen and (min-width: $mobile) {
+  $side_padding: 4em;
+}
+
+@import "./burgerIcon";
 @import "./down-line";
 @import "./fonts";
 @import "./mixins";

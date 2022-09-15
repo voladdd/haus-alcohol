@@ -25,3 +25,19 @@
     }
   }
 }
+
+@media screen and (max-width: $mobile) {
+  &__proposition {
+    row-gap: 2em;
+    img {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+    }
+    .proposition {
+      &__info {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+      }
+    }
+  }
+}

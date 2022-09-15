@@ -18,3 +18,16 @@
     max-width: 34.25em;
   }
 }
+
+@media screen and (max-width: $mobile) {
+  &__aperetifs {
+    row-gap: 2em;
+    &__title {
+      grid-column: 1 / 3;
+    }
+    &__body {
+      grid-column: 1 / 3;
+      text-align: start;
+    }
+  }
+}
