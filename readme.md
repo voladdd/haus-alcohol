@@ -16,7 +16,7 @@ This is a sample landing page i have maded for e-commerce market that called "Ha
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
   - [Set up](#set-up)
-- [Contacts](#contact)
+- [Contacts](#contacts)
 
 ## Overview
 
