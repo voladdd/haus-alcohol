@@ -16,7 +16,7 @@ This is a sample landing page i have maded for e-commerce market that called "Ha
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
   - [Set up](#set-up)
-- [Author](#author)
+- [Contacts](#contact)
 
 ## Overview
 
@@ -78,8 +78,8 @@ In future project im planning to learn how to use correct HTML semantic elements
 - [w3schools](https://www.w3schools.com/) - There i find some more extended and different code samples.
 - [doka](https://doka.guide/) - Hard things described with simple words, and tons of best practices.
 
-## Author
+## Contacts
 
 - Github - [@voladdd](https://github.com/voladdd)
 - Linkedin - [link](https://www.linkedin.com/in/vlad-selivanov-190725212/)
-- Contact email - artosan360@gmail.com
+- Email - artosan360@gmail.com
