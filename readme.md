@@ -4,19 +4,18 @@
 
 This is a sample landing page i have maded for e-commerce market that called "Haus Alcohol", _where you can buy light and refreshing flavors made with real, clean ingredients you can feel good about._
 
-figma file [link](https://www.figma.com/file/cS3zuwFzFcTpgVnKPwLgHh/Haus?node-id=0%3A1)
-
 ## Table of contents
 
 - [Overview](#overview)
   - [Tasks](#tasks)
-  - [Screenshots](#screenshots)
+  - [Adaptive](#adaptive)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+  - [Set up](#set-up)
 - [Author](#author)
 
 ## Overview
@@ -29,16 +28,58 @@ Users should be able to:
 - See hover states for interactive elements on the page like buttons
 - Using header on mobile devices via burger menu
 
-### Screenshots
+### Adaptive
 
-![](./overview/pc.jpg =250x)
-![](./overview/tablet.jpg =250x)
-![](./overview/mobile.jpg =250x)
+![devices](./overview/devices.png)
 
-### Utilities
+### Links
+
+- Live [site](https://voladdd.github.io/lgp-haus-alcohol/)
+- Figma [file](https://www.figma.com/file/cS3zuwFzFcTpgVnKPwLgHh/Haus?node-id=0%3A1)
+
+## My process
+
+### Set up
 
 #### Launch SASS to watch folder:
 
 `sass --watch src/sass:src/public`
 
-#### Design: [FIGMA](https://www.figma.com/file/b4FE5jKE4SVKBSNvjpNd6j/spizjuAlcohol?node-id=0%3A1)
+#### Start live static server
+
+`npx serve`
+
+### Built with
+
+- HTML
+- SASS, CSS
+- JS
+- CSS Grid, Flexbox
+- Mobile-first workflow
+
+### What I learned
+
+- work with CSS preprocessor - SASS,
+- SASS + BEM work in pairs
+- mixins with parameters
+- split project files into multiple files
+- adding burger menu with animation
+- importance of adding alt names
+- avoide fixed sizes with em, rem, %
+- loading local fonts and from online resources
+
+### Continued development
+
+In future project im planning to learn how to use correct HTML semantic elements, adding more interactive sliding between sections, and adding CSS transitions with using JS Observer.
+
+### Useful resources
+
+- [mdn web docs](https://developer.mozilla.org/) - This helps me with learning all web tecnhologies, with a lot of examples and additional useful resources.
+- [w3schools](https://www.w3schools.com/) - There i find some more extended and different code samples.
+- [doka](https://doka.guide/) - Hard things described with simple words, and tons of best practices.
+
+## Author
+
+- Github - [@voladdd](https://github.com/voladdd)
+- Linkedin - [link](https://www.linkedin.com/in/vlad-selivanov-190725212/)
+- Contact email - artosan360@gmail.com
