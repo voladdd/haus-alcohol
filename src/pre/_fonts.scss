@@ -2,5 +2,8 @@
 
 @font-face {
   font-family: "LiberationSerif";
-  src: url("../../assets/fonts/LiberationSerif-Regular.ttf") format("ttf");
+  src: url("../../assets/fonts/LiberationSerif.eot");
+  src: url("../../assets/fonts/LiberationSerif-Regular.ttf") format("ttf"),
+    url("../../assets/fonts/LiberationSerif.woff") format("woff"),
+    url("../../assets/fonts/LiberationSerif.woff2") format("woff2");
 }

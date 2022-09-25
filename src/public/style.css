@@ -59,6 +59,7 @@ body.overflow {
   background: #bdbdbd;
   margin: 0 4em;
   height: 1px;
+  position: relative;
 }
 .down-line--full-side {
   margin: 0;
@@ -66,7 +67,8 @@ body.overflow {
 
 @font-face {
   font-family: "LiberationSerif";
-  src: url("../../fonts/LiberationSerif.ttf") format("ttf");
+  src: url("../../assets/fonts/LiberationSerif.eot");
+  src: url("../../assets/fonts/LiberationSerif-Regular.ttf") format("ttf"), url("../../assets/fonts/LiberationSerif.woff") format("woff"), url("../../assets/fonts/LiberationSerif.woff2") format("woff2");
 }
 .text-block {
   padding: 0 4em;
@@ -321,7 +323,7 @@ header .side__right a:not(:first-child) {
 .section__intro {
   display: flex;
   background-color: #996b60;
-  height: 100vh;
+  min-height: 100vh;
 }
 .section__intro .intro__left {
   width: 50%;
