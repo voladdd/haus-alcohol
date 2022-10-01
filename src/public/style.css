@@ -406,7 +406,7 @@ header .side__right a:not(:first-child) {
     z-index: -1;
     height: 100vh;
     display: block;
-    background: no-repeat url(../../assets/images/preview_alcohol.png);
+    background: no-repeat url(../../assets/images/preview_alcohol.jpg);
     background-size: cover;
     filter: brightness(0.5);
   }
@@ -754,7 +754,7 @@ header .side__right a:not(:first-child) {
   }
 }
 .section__follow {
-  background: no-repeat url(../../assets/images/follow_background.png);
+  background: no-repeat url(../../assets/images/follow_background.jpg);
   background-size: cover;
   color: white;
   padding: 4em 4em;

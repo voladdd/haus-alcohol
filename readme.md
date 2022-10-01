@@ -43,7 +43,7 @@ Users should be able to:
 
 #### Launch SASS to watch folder:
 
-`sass --watch src/sass:src/public`
+`sass --watch src/pre:src/public`
 
 #### Start live static server
 
